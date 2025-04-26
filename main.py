@@ -47,8 +47,8 @@ def load_and_resize_images(folder_path, target_size=(64,64)):
 
 #target_size = (new_width, new_height)  # Define the target size for resizing
 
-cancer_folder = r"C:\Users\Даниил\PycharmProjects\ManiFest_binary\n1"
-non_cancer_folder = r"C:\Users\Даниил\PycharmProjects\ManiFest_binary\p1"
+cancer_folder = "..."
+non_cancer_folder = "..."
 
 cancer_images = load_and_resize_images(cancer_folder)
 print(len(cancer_images))
